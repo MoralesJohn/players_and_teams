@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app='playerApp'>
+<head>
+	<title>A player to be named later</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
+    <script type='text/javascript' src='./js/script.js'></script>
+</head>
+<body>
+	<div id="wrapper">
+		<h4><a href="#/">Associations</a> | <a href="#/players">Players</a> | <a href="#/teams">Teams</a></h4>
+		<hr>
+		<div ng-view=''></div>
+	</div>
+</body>
+</html>

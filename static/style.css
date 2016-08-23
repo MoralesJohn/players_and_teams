@@ -1,0 +1,14 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: verdana, sans-serif; 
+}
+
+#wrapper {
+	margin: 20px auto;
+	width: 700px;
+}
+
+hr {
+	margin: 10px;
+}
